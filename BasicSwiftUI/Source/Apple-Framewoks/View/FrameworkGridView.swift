@@ -22,11 +22,13 @@ struct FrameworkGridView: View {
                     }
                 }
             }
+            .background(Color.backgroundColor)
             .navigationTitle("🍎 Frameworks")
             .navigationDestination(for: Framework.self) { framework in
                 FrameworkDetailView(framework: framework)
             }
         }
+        
     }
 }
 

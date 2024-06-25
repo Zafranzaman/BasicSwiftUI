@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5F11CE2C2A783500D9856D /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F11CD2C2A783500D9856D /* UIView+Extentions.swift */; };
+		9F5F11D32C2ADF7A00D9856D /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F11D22C2ADF7A00D9856D /* Blur.swift */; };
+		9F655C0C2C29538700368F45 /* FloatingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F655C0B2C29538700368F45 /* FloatingTextFieldView.swift */; };
+		9F655C0F2C29558300368F45 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F655C0E2C29558300368F45 /* LoginView.swift */; };
+		9F655C112C298A7800368F45 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F655C102C298A7800368F45 /* GradientButton.swift */; };
 		9FA4B67A2C1AF4BF004F3208 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4B6792C1AF4BF004F3208 /* MockData.swift */; };
 		9FA4B67C2C1AF725004F3208 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4B67B2C1AF725004F3208 /* FrameworkTitleView.swift */; };
 		9FA4B67F2C1AFF43004F3208 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4B67E2C1AFF43004F3208 /* XDismissButton.swift */; };
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F5F11CD2C2A783500D9856D /* UIView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extentions.swift"; sourceTree = "<group>"; };
+		9F5F11D22C2ADF7A00D9856D /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		9F655C0B2C29538700368F45 /* FloatingTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextFieldView.swift; sourceTree = "<group>"; };
+		9F655C0E2C29558300368F45 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9F655C102C298A7800368F45 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		9FA4B6792C1AF4BF004F3208 /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		9FA4B67B2C1AF725004F3208 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		9FA4B67E2C1AFF43004F3208 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
@@ -87,9 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F5F11CC2C2A781900D9856D /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F11CD2C2A783500D9856D /* UIView+Extentions.swift */,
+				9F5F11D22C2ADF7A00D9856D /* Blur.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		9F655C0D2C29556300368F45 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9F655C0E2C29558300368F45 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		9FA4B6772C1ABD05004F3208 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9F655C0D2C29556300368F45 /* Login */,
 				9FA4B6832C1AFFFF004F3208 /* Views */,
 				9FA4B6822C1AFF8E004F3208 /* Apple-Framewoks */,
 				9FA4B67D2C1AFF26004F3208 /* Buttons */,
@@ -129,6 +157,8 @@
 			children = (
 				9FA4B67B2C1AF725004F3208 /* FrameworkTitleView.swift */,
 				9FA4B68F2C1B0125004F3208 /* SafariView.swift */,
+				9F655C0B2C29538700368F45 /* FloatingTextFieldView.swift */,
+				9F655C102C298A7800368F45 /* GradientButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +219,7 @@
 		9FC75A8E2C1964C90088E198 /* BasicSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9F5F11CC2C2A781900D9856D /* Extentions */,
 				9FC75A8F2C1964C90088E198 /* BasicSwiftUIApp.swift */,
 				9FC75A912C1964C90088E198 /* ContentView.swift */,
 				9FA4B6772C1ABD05004F3208 /* Source */,
@@ -356,13 +387,18 @@
 				9FA4B67C2C1AF725004F3208 /* FrameworkTitleView.swift in Sources */,
 				9FA4B68A2C1B00B1004F3208 /* FrameworkGridView.swift in Sources */,
 				9FC75A922C1964C90088E198 /* ContentView.swift in Sources */,
+				9F5F11CE2C2A783500D9856D /* UIView+Extentions.swift in Sources */,
 				9FA4B67A2C1AF4BF004F3208 /* MockData.swift in Sources */,
 				9FA4B6902C1B0125004F3208 /* SafariView.swift in Sources */,
 				9FC75A902C1964C90088E198 /* BasicSwiftUIApp.swift in Sources */,
+				9F655C0F2C29558300368F45 /* LoginView.swift in Sources */,
 				9FA4B6812C1AFF73004F3208 /* AFButton.swift in Sources */,
 				9FA4B6852C1B0065004F3208 /* FrameworkGridViewModel.swift in Sources */,
 				9FA4B67F2C1AFF43004F3208 /* XDismissButton.swift in Sources */,
+				9F655C112C298A7800368F45 /* GradientButton.swift in Sources */,
+				9F5F11D32C2ADF7A00D9856D /* Blur.swift in Sources */,
 				9FA4B68E2C1B00F8004F3208 /* FrameworkDetailView.swift in Sources */,
+				9F655C0C2C29538700368F45 /* FloatingTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +570,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -563,6 +600,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
